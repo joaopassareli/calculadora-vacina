@@ -1,0 +1,239 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: radial-gradient(circle, #FEFEFE, #bbf3f4);
+    color: #1d438d;
+}
+
+/*
+    Início do CSS do cabeçalho
+*/
+
+.logo {
+    display: block;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(to top, rgb(233, 60, 95), crimson);
+    /* background-color: #ed1a4d; */
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*
+    Fim do CSS do cabeçalho
+*/
+
+
+.label-padrao {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+.input-padrao {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+}
+
+
+/*
+    INÍCIO do CSS do Card da Segunda Dose
+*/
+
+#card-segunda-dose {
+    color: #1d438d;
+    box-sizing: border-box;
+    border: 1px solid #556ae0b4;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    transition: 0.5s all;
+}
+
+#card-segunda-dose:hover {
+    transform: scale(1.05);
+}
+
+#card-segunda-dose h3 {
+    background: linear-gradient(to top, #556ae0e3, #1d438d);
+    color: whitesmoke;
+    border-radius: 10px 10px 0 0px;
+    padding: 10px;
+}
+
+.btn-segunda-dose {
+    cursor: pointer;
+    padding: 10px;
+    margin: 1em;
+    background-color: #1d438d;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    transition: 0.5s all;
+}
+
+.btn-segunda-dose:hover {
+    background-color: #556ae0e3;
+}
+
+#respostaCalculo {
+    text-align: justify;
+    background: linear-gradient(to top, whitesmoke, #b8ccf3, whitesmoke);
+    border-radius: 10px 10px 0 0px;
+    border-radius: 05px;
+    color: rgb(34, 49, 49);
+}
+
+/*
+    FIM do CSS do Card da Segunda Dose
+*/
+
+/*
+    INÍCIO do CSS do Card da Terceira Dose
+*/
+
+#card-terceira-dose {
+    color: #0e7e6d;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #49bcab;
+    background-color: whitesmoke;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    transition: 0.5s all;
+}
+
+#card-terceira-dose:hover {
+    transform: scale(1.05);
+}
+
+#card-terceira-dose h3 {
+    background: linear-gradient(to top, #49bcab, #0e7e6d);
+    border-radius: 10px 10px 0 0px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.btn-terceira-dose {
+    cursor: pointer;
+    padding: 10px;
+    margin: 1em;
+    background-color: #0e7e6d;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    transition: 0.5s all;
+}
+
+.btn-terceira-dose:hover {
+    background-color: #49bcab;
+}
+
+#respostaTerceiraDose {
+    padding: 5px;
+    text-align: justify;
+    background: linear-gradient(to top, whitesmoke, #8ef3e4, whitesmoke);
+    border-radius: 05px;
+    color: darkslategrey;  
+}
+
+/*
+    FIM do CSS do Card da Terceira Dose
+*/
+
+/*
+    INÍCIO do CSS do Card da Quarta Dose
+*/
+
+#card-quarta-dose {
+    color: crimson;
+    box-sizing: border-box;
+    border: 1px solid #48267ecc;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    transition: 0.5s all;
+}
+
+#card-quarta-dose:hover {
+    transform: scale(1.05);
+}
+
+#card-quarta-dose h3 {
+    background: linear-gradient(to top, #48267e, #1d1230);
+    border-radius: 10px 10px 0 0px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+/*
+    FIM do CSS do Card da Quarta Dose
+*/
+
+.img-responsive {
+    width: 200;
+    height: 200;
+    margin: auto;
+    display: block;
+}
+
+/*
+    Início do CSS do Rodapé
+*/
+
+.logo-whatsapp {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+.logo-prefeitura {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #1d438d;
+    margin-top: 30px;
+}
+
+.contato:before{
+    content: "Informações: ";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copyright {
+    margin-top: 1em;
+    text-align: center;
+    padding: 5px;
+    color: #1d438d;
+}
+
+/*
+    Fim do CSS do Rodapé
+*/
